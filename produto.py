@@ -30,6 +30,9 @@ class Produto:
 
     def set_eh_ativo(self, eh_ativo):
         self._eh_ativo = eh_ativo
+    
+    def set_qtd_itens(self, qtd_itens):
+        self._qtd_itens = qtd_itens
 
     def __str__(self) -> str:
         return f"Nome: {self.get_nome()}, Código de barras: {self.get_codigo_barras()}, Preço: {self.get_preco()}, Quantidade: {self.get_qtd_itens()}/{self.get_unidade_medida()} - Está ativo? {self.get_eh_ativo()}"
