@@ -1,5 +1,3 @@
-from produto import Produto
-
 class Estoque:
 
     _instance = None
